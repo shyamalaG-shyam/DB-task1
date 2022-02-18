@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(44, 42, 42);
+}.container{
+    padding: 25px;
+    height: 50px;
+    width: 50%;
+    height: 40%;
+    box-shadow: 0 0rem 1rem rgba(243, 238, 238, 0.295);
+    margin-top: 25%;
+    margin-left: 25%;
+
+}label{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(247, 166, 16);
+    display: block;
+}label:first-child{
+    margin-bottom: 1.5rem;
+}input{
+    border: none;
+    border-radius: 2px;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    width: 70%;
+    display: block;
+    margin-bottom: 1.5rem;
+}.button,.button:active{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1rem;
+    transition: all .4s;
+}.button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0rem 1rem .5rem rgba(255, 255, 255, 0.322); 
+}
